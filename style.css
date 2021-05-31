@@ -1,7 +1,7 @@
 /*
-StyleSheet
-Last modified: 4/5/2021 12:32PM
-@authors: Jack and Jeff
+style
+Last modified: 31/5/2021
+@authors: Jack
 */
 
 /*
@@ -64,7 +64,7 @@ ul.nav {
     height: 65px;
 }
 
-ul.nav li a {
+/* ul.nav li a {
     display: block;
     color: white;
     padding: 19px 10px;
@@ -87,7 +87,7 @@ ul.nav li.right {
 @media screen and (max-width: 600px) {
   ul.nav li.right, 
   ul.nav li {float: none;}
-}
+} */
 
 /*
 Content mod
@@ -151,34 +151,4 @@ ul.footer li a {
     float: center;
     padding: 15px 0px;
     font-size: 15px;
-}
-
-/* 
-Table
-*/
-
-table, th, td {	
-  border: 1px solid red;
-  border-collapse: collapse;
-}
-
-th, td {
-  padding: 5px;
-  text-align: left;
-}
-
-/* 
-Profile Images
-*/
-
-.column {
-  float: left;
-  width: 16.5%;
-  padding: 3px;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
