@@ -1,0 +1,184 @@
+/*
+StyleSheet
+Last modified: 4/5/2021 12:32PM
+@authors: Jack and Jeff
+*/
+
+/*
+General text modifications
+*/
+  
+body {
+    background: #1f1f1f;
+    font-family: Arial, Helvetica, sans-serif, Times New Roman;
+    color: white;
+    margin: 0;
+} 
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+p {
+	font-size: 18px;
+}
+
+/* 
+Navigation
+*/
+
+.h1 {
+    float: left;
+    padding: 18px 10px;
+    font-size: 25px;
+}
+
+.img {
+    float: left;
+    width: 70; 
+    height: 70;
+    padding: 1px 1.5px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 65px;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    padding: 19px 10px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+ul.nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+ul.nav li a.active {
+    background-color: #F40F0F;
+}
+
+ul.nav li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px) {
+  ul.nav li.right, 
+  ul.nav li {float: none;}
+}
+
+/*
+Content mod
+*/
+
+.introbox {	/*box for the first content box (has top margin)*/
+	background-color:#1a1a1a;
+	color:white;
+	padding:20px;
+	margin:100px 25px 5px 25px;
+}
+
+.box {	/*standard content box*/
+	background-color:#1a1a1a;
+	color:white;
+	padding:20px;
+	margin:15px 25px 20px 25px;
+}
+
+/*
+TeamProfile section
+*/
+
+.cont1 {	/*container for columns*/
+  height: 200px;
+  background-color: #0d0d0d;  
+}
+
+.column {	/*note: please only put 3 columns into a single container, or else additional steps will be required*/
+  float: left;
+  width: 31%;
+  margin: 20px 1.15%;
+  height: 160px;	/* !! pick a height here for all columns. !! */
+  background-color: #1a1a1a; 
+}
+
+/* 
+Footer
+*/
+
+ul.footer {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    height: 50px;
+}
+
+ul.footer li a {
+    display: block;
+    color: white;
+    padding: 19px 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.rights {
+    float: center;
+    padding: 15px 0px;
+    font-size: 15px;
+}
+
+/* 
+Table
+*/
+
+table, th, td {	
+  border: 1px solid red;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+}
+
+/* 
+Profile Images
+*/
+
+.column {
+  float: left;
+  width: 16.5%;
+  padding: 3px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
