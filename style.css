@@ -64,31 +64,6 @@ ul.nav {
     height: 65px;
 }
 
-/* ul.nav li a {
-    display: block;
-    color: white;
-    padding: 19px 10px;
-    text-decoration: none;
-    font-size: 23px;
-}
-
-ul.nav li a:hover:not(.active) {
-    background-color: #111;
-}
-
-ul.nav li a.active {
-    background-color: #F40F0F;
-}
-
-ul.nav li.right {
-    float: right;
-}
-
-@media screen and (max-width: 600px) {
-  ul.nav li.right, 
-  ul.nav li {float: none;}
-} */
-
 /*
 Content mod
 */
